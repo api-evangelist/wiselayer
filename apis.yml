@@ -1,22 +1,75 @@
 aid: wiselayer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wiselayer.png
 name: Wiselayer
-description: Wiselayer is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  WiseLayer is an AI-powered accounting automation platform that provides named
+  "digital workers" (AI agents) for finance and accounting teams, automating
+  tasks such as accruals, vendor communications, payroll accounting, bank
+  reconciliations, depreciation and amortization, lease accounting, and prepaid
+  expenses. The platform emphasizes transparent, explainable AI ("AI that shows
+  its work") with natural-language interaction, automated email digests, and
+  300+ integrations into ERPs, billing, procure-to-pay, and HRIS systems.
+  WiseLayer was acquired by BlackLine (NASDAQ: BL) and its product is now offered
+  as Verity Accruals by BlackLine. WiseLayer was surfaced as a portfolio company
+  of Canaan Partners. The company operates a SaaS application at app.wiselayer.com
+  and does not publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/wiselayer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
+x-acquired-by: blackline
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Accounting
+- Finance
+- Automation
+- Agents
+- Accruals
+- Accounting Automation
+- FinTech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/wiselayer-domain-security.yml
+- type: Website
+  url: https://www.wiselayer.com
+- type: Blog
+  url: https://www.wiselayer.com/blog
+- type: TrustCenter
+  url: https://www.wiselayer.com/trust-security
+- type: Compliance
+  url: https://www.wiselayer.com/trust-security
+- type: PrivacyPolicy
+  url: https://www.wiselayer.com/privacy-policy
+- type: TermsOfService
+  url: https://www.wiselayer.com/terms-and-conditions-for-customers
+- type: Login
+  url: https://app.wiselayer.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

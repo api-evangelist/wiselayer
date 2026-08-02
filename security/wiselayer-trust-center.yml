@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.wiselayer.com/trust-security
+url: https://www.wiselayer.com/trust-security
+certifications:
+- SOC 1
+- SOC 2
+notes: >-
+  WiseLayer publishes a Trust & Security page stating that SOC 1 and SOC 2
+  reports are available upon request. The page also describes AWS-based
+  security standards, encryption at rest and in transit, identity and access
+  management controls, and full data segregation. WiseLayer states it has
+  passed security questionnaires from all clients, including public companies.
+  No dedicated vulnerability-disclosure program, bug bounty, or security.txt
+  was found. Company acquired by BlackLine (product now Verity Accruals by
+  BlackLine).
+evidence:
+- source: https://www.wiselayer.com/trust-security
+  keywords:
+  - soc 1
+  - soc 2
+  - encryption
+  - data segregation
